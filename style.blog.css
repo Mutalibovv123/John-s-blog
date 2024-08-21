@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo';
+}
+
+.container {
+    max-width: 858px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 30px;
+    position: relative;
+    left: 850px;
+    bottom: 50px;
+}
+
+.nav_item a {
+    font-size: 20px;
+    line-height: 29.38px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_item a:hover {
+    color: #FF6464;
+    ;
+}
+.ui_title {
+    width: 682;
+    font-size: 30;
+    font-weight: 500;
+    line-height: 44.06px;
+    color: #21243D;
+}
+.pattern {
+ color: #8695A4;
+
+}
+.ui_desc {
+    width: 682;
+    font-size: 16px;
+}
